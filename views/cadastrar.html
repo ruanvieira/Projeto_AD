@@ -28,7 +28,7 @@
 			<nav class="menu">
 				<ul id="men">
 					<li><a href="cadastrar.html"> Cadastrar Membro       </a></li>
-					<li><a href="atividadeavaliarmembro.html">   Avaliar Membro     </a></li>
+					<li><a href="avaliar.html">   Avaliar Membro     </a></li>
 					<li><a href="atividademembros.html"> Membros       </a></li>
 					<li><a href="atividademinhasavaliacoes.html"> Minhas Avaliações       </a></li>
 				</ul>
@@ -36,61 +36,37 @@
 		
 
 			<div class="formcadastro">
-				<form class="form-horizontal" role="form">
-					  <div class="form-group">
-					    <label for="nomemembro" class="col-sm-2 control-label">Nome:</label>
-					    <div class="col-sm-10">
-					      <input type="text" class="form-control" id="nomemembro" placeholder="Nome do Membro">
-					    </div>
-					  </div>
-					  <div class="form-group">
-					    <label for="emailmembro" class="col-sm-2 control-label">E-mail:</label>
-					    <div class="col-sm-10">
-					      <input type="email" class="form-control" id="emailmembro" placeholder="E-mail do Membro">
-					    </div>
-					  </div>
-					  <div class="form-group">
-					    <label for="cargomembro" class="col-sm-2 control-label">Cargo:</label>
-					    <div class="col-sm-10">
-					      <input type="text" class="form-control" id="cargomembro" placeholder="Cargo do Membro">
-					    </div>
-					  </div>
-					   <div class="form-group">
-					    <label for="diretoriamembro" class="col-sm-2 control-label">Diretoria:</label>
-					    <div class="col-sm-10">
-					      <input type="text" class="form-control" id="diretoriamembro" placeholder="Diretoria do Membro">
-					    </div>
-					  </div>
-					  <textarea class="form-control" rows="3"></textarea>
-					  <textarea class="form-control" rows="3"></textarea>
-					  <textarea class="form-control" rows="3"></textarea>
-					  <div class="control-group">
-				   		 <div class="controls">
-				     		 <button type="submit" class="btn">Entrar</button>
-				  		  </div>
-				 	  </div>
-
-
-
+				<form class="cadastro" method="get" action="">
+					<div class="label">
+						Nome:
+					</div>
+					<div class="inputs">
+						<input type="text" name="nomemembro" size=12 maxlength=25 title="Digite o nome do membro">
+					</div>
+					<div class="label">
+						E-mail:
+					</div>
+					<div class="inputs">
+						<input type="email" name="emailmembro" size=12 maxlength=20 title="Digite o email do membro">
+					</div>
+					<div class="label">
+						Cargo:
+					</div>
+					<div class="inputs">
+						<input type="text" name="cargomembro" size=12 maxlength=20 title="Digite o cargo do membro">
+					</div>
+					<div class="label">
+						Diretoria:
+					</div>
+					<div class="inputs">
+						<input type="text" name="diretoriamembro" size=12 maxlength=20 title="Digite a diretoria do membro">
+					</div>
+					<button type="submit" class="btn">Cadastrar Membro</button>
+					<button type="reset" class="btn">Limpar</button>
 				</form>
-
-
-
 			</div>
 		</div>
-
-
-
-
-
-
-
-
-
 </div>
-
-
-	
 
 
 <footer>

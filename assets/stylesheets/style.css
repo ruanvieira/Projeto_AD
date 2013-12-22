@@ -46,7 +46,6 @@ html, body {min-height: 100%; min-width: 960px;}
 	margin-top: 10px;
 	min-width: 960px;
 	height: 90px;
-	background-color:black;
 }
 
 .menu ul{
@@ -138,7 +137,19 @@ body{
 	width: 960px;
 }
 
-.col-sm-2 control-label
+.cadastro
 {
-	
+	padding-top: 25px;
+}
+
+.avaliar{
+	padding-top: 25px;
+}
+
+.inputs textarea{
+	width: 600px;
+}
+
+.inputs input{
+	width: 400px;
 }

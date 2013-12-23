@@ -142,6 +142,11 @@ body{
 	padding-top: 25px;
 }
 
+.formavaliar{
+	min-height: 400px;
+	width: 960px;
+}
+
 .avaliar{
 	padding-top: 25px;
 }
@@ -153,3 +158,37 @@ body{
 .inputs input{
 	width: 400px;
 }
+
+.tabelamembros{
+	padding-top: 60px;
+	min-height: 400px;
+	min-width: 960px;
+}
+
+.tabmembros{
+	background-color: #EAF7E9;
+ 
+}
+
+.tabmembros table{
+	background-color: #EAF7E9;
+}
+
+.elementos{
+	padding: 10px 10px 10px 10px;
+}
+
+.titulos{
+	padding: 10px 10px 10px 38px;
+}
+
+.difer{
+	padding-left: 40px;
+	padding-right: 40px;
+}
+
+
+
+
+
+

@@ -187,6 +187,20 @@ body{
 	padding-right: 40px;
 }
 
+.tabelaavaliacoes{
+	padding-top: 60px;
+	min-height: 400px;
+	min-width: 960px;
+}
+
+.tabavaliacoes{
+	background-color: #EAF7E9;
+ 
+}
+
+.tabavaliacoes table{
+	background-color: #EAF7E9;
+}
 
 
 
